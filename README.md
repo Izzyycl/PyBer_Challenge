@@ -1,35 +1,28 @@
-# PyBer_Challenge
+# PyBer Analysis Challenge
+## Overview of Project
+V. Isualize, CEO of a new ridesharing app called PyBer, has tasked the data analytics team with analyzing data ranging from January, 2019 through early May, 2019.   Utilizing the same data set the CEO has informed the team of a second request, this time analyzing the difference in fares between the different city types (Urban, Suburban, and Rural) for the same timeframe. 
 
-## Overview
+## Analysis Results
+### Ridesharing Data by City Type
 
-The purpose of this analysis was to comb through ride sharing data nd determine key metrics that will allow V. Isualize to compare 
-rural, suburban, and urban cities' rides. This included total rides, drivers, and fares, as well as average fares per ride and per
-driver. This data was organized to various tables.
+![PyBer_Challenge_1](https://user-images.githubusercontent.com/89044350/133320504-2a1b7643-f0cc-44fe-bf7c-bb62c30f0ee6.PNG)
 
-## Results
+As you can see in the data above, Urban areas show to have the highest number of "Total Rides", almost 2000 more "Total Drivers" than Suburban and Rural areas and the lowest "Avg Fare per Ride".  The "Average Fare per Driver" is also much lower than Suburban and Rural areas.
 
-There are several significant observations to be made while looking at the data when sorted by city type
+### Sum of Total Fares Each Week
 
-![Rides by City Type](https://user-images.githubusercontent.com/91306342/141432316-0d0ecf74-3106-4dfc-9cef-10e72d11497b.PNG)
+![PyBer_Challege_Weekly_Breakdown](https://user-images.githubusercontent.com/89044350/133321411-e9b07240-b4ad-4b61-b072-c251b9ccc108.PNG)
 
-As cities became more urban several trends emerged:
--Total rides, total fares, and total drivers all increased, likely due to the higher population
--Average fare per ride and average fare per driver all decreased
+As shown above, Urban areas consistently show higher total fare amounts when compared to Suburban and Rural areas. These numbers tend to make sense given the differences noted before in Total Rides and Total Drivers.
 
-![PyBer_fare_summary](https://user-images.githubusercontent.com/91306342/141433236-e858c7c5-af0f-44b6-a839-20c1758a975c.png)
+### Total Fares by City Type
+
+![PyBer_fare_summary](https://user-images.githubusercontent.com/89044350/133326195-668d7b88-1f59-409a-a7c7-243d75bfb7de.png)
+
+
+The graph shown above makes it much easier to see the overall Total Fares by City Type and how those fare totals trend by month for each respective city type. The Y-axis represents Total Fares ($USD) while the X-axis represents each month data was analyzed. Different colors were used to make it easier to decipher how each city type performed.
 
 ## Summary
+In summary, it is very clear that the most revenue is generated in Urban areas. It should be noted however that all three city types see an increase in revenues just before March. This could be due to numerous circumstances, such as improved weather and people spending more time outdoors traveling.  Suburban areas specifically see an upwards trend in revenues moving into May, suggesting that people may make their way into more Urban areas for different entertainment events, social events, restaurants etc. It would be in the interest of PyBer to do more analysis on the increase of revenues for Suburban areas during the month of April, as Urban areas show a decrease during the same period.
 
-The data may be used to consider the following:
-
-- Such a vast difference in avg fare per driver may pull drivers out to the suburbs/rural areas. Consider researching pay
-  per mile and tweaking the pay structure if the pay per mile is significantly higher in less urban areas
-  
-- Consider increasing the fare in urban areas for more profit since almost 2/3 of rides are in urban areas
-
-- Consider incentives to hire more suburban/rural drivers since the avg fare is so high. Whether this is to high demand or
-  longer rides or some other factor should be investigated. If rides are more profitable then getting more rural/suburban
-  business should be a top priority
-
-
-
+There are many factors that could play into why each city type performs differently. For example, one reason rural revenues are so low could be the cost to travel into Urban areas via the PyBer app. Another factor to consider would be fuel costs for the drivers in the different areas.  It would be beneficial to CEO V.Isualize to have a much broader data set to analyze in order to paint a more accurate picture.  This would only benefit V. Isualize on enabling her to identify where to focus her efforts as CEO, making PyBer more accessible, therefore, successful.
